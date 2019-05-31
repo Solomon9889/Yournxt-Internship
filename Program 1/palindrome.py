@@ -1,7 +1,10 @@
 input = int(input("Enter the number"))
 
-def rev(num): 
-    return num[::-1] 
+def rev(num):
+    revnum = "" 
+    for i in num:
+        revnum =  i + revnum
+    return revnum
 
 def palfnc(num):
     reverse = rev(str(num))
