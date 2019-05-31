@@ -1,5 +1,5 @@
 input = str(input("Enter your string"))
-input.strip()
+
 flag =0
 dec = 89
 try:
